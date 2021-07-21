@@ -153,10 +153,10 @@ function addValue2(event) {
 
   console.log(secondsum);
 
-  let secondQButton = document.getElementsByClassName('secondQButton'); 
+  let secondQButton = document.getElementsByClassName('secondQButton');
 
   for (let btn of secondQButton) {
-    btn.style.backgroundColor = 'white'; 
+    btn.style.backgroundColor = 'white';
   }
 
   let target;
@@ -174,120 +174,120 @@ function addValue3(event) {
   thirdsum = event.target.getAttribute('value') ||
     event.target.parentNode.getAttribute('value');
 
-    let thirdQButton = document.getElementsByClassName('thirdQButton'); // [div1, div2]
+  let thirdQButton = document.getElementsByClassName('thirdQButton'); // [div1, div2]
 
-    for (let btn of thirdQButton) {
-      btn.style.backgroundColor = 'white'; //div2
-    }
-  
-    let target;
-    if (event.target.getAttribute('value')) {
-      target = event.target;
-    } else {
-      target = event.target.parentNode;
-    }
-  
-    target.style.backgroundColor = '#85c6f5';
+  for (let btn of thirdQButton) {
+    btn.style.backgroundColor = 'white'; //div2
+  }
+
+  let target;
+  if (event.target.getAttribute('value')) {
+    target = event.target;
+  } else {
+    target = event.target.parentNode;
+  }
+
+  target.style.backgroundColor = '#85c6f5';
 }
 
 function addValue4(event) {
   fourthsum = event.target.getAttribute('value') ||
     event.target.parentNode.getAttribute('value');
 
-    let fourthQButton = document.getElementsByClassName('fourthQButton'); // [div1, div2]
+  let fourthQButton = document.getElementsByClassName('fourthQButton'); // [div1, div2]
 
-    for (let btn of fourthQButton) {
-      btn.style.backgroundColor = 'white'; //div2
-    }
-  
-    let target;
-    if (event.target.getAttribute('value')) {
-      target = event.target;
-    } else {
-      target = event.target.parentNode;
-    }
-  
-    target.style.backgroundColor = '#85c6f5';
+  for (let btn of fourthQButton) {
+    btn.style.backgroundColor = 'white'; //div2
+  }
+
+  let target;
+  if (event.target.getAttribute('value')) {
+    target = event.target;
+  } else {
+    target = event.target.parentNode;
+  }
+
+  target.style.backgroundColor = '#85c6f5';
 }
 
 function addValue5(event) {
   fifthsum = event.target.getAttribute('value') ||
     event.target.parentNode.getAttribute('value');
 
-    let fifthQButton = document.getElementsByClassName('fifthQButton'); // [div1, div2]
+  let fifthQButton = document.getElementsByClassName('fifthQButton'); // [div1, div2]
 
-    for (let btn of fifthQButton) {
-      btn.style.backgroundColor = 'white'; //div2
-    }
-  
-    let target;
-    if (event.target.getAttribute('value')) {
-      target = event.target;
-    } else {
-      target = event.target.parentNode;
-    }
-  
-    target.style.backgroundColor = '#85c6f5';
+  for (let btn of fifthQButton) {
+    btn.style.backgroundColor = 'white'; //div2
+  }
+
+  let target;
+  if (event.target.getAttribute('value')) {
+    target = event.target;
+  } else {
+    target = event.target.parentNode;
+  }
+
+  target.style.backgroundColor = '#85c6f5';
 }
 
 function addValue6(event) {
   sixthsum = event.target.getAttribute('value') ||
     event.target.parentNode.getAttribute('value');
 
-    let sixthQButton = document.getElementsByClassName('sixthQButton'); // [div1, div2]
+  let sixthQButton = document.getElementsByClassName('sixthQButton'); // [div1, div2]
 
-    for (let btn of sixthQButton) {
-      btn.style.backgroundColor = 'white'; //div2
-    }
-  
-    let target;
-    if (event.target.getAttribute('value')) {
-      target = event.target;
-    } else {
-      target = event.target.parentNode;
-    }
-  
-    target.style.backgroundColor = '#85c6f5';
+  for (let btn of sixthQButton) {
+    btn.style.backgroundColor = 'white'; //div2
+  }
+
+  let target;
+  if (event.target.getAttribute('value')) {
+    target = event.target;
+  } else {
+    target = event.target.parentNode;
+  }
+
+  target.style.backgroundColor = '#85c6f5';
 }
 
 function addValue7(event) {
   seventhsum = event.target.getAttribute('value') ||
     event.target.parentNode.getAttribute('value');
 
-    let seventhQButton = document.getElementsByClassName('seventhQButton'); // [div1, div2]
+  let seventhQButton = document.getElementsByClassName('seventhQButton'); // [div1, div2]
 
-    for (let btn of seventhQButton) {
-      btn.style.backgroundColor = 'white'; //div2
-    }
-  
-    let target;
-    if (event.target.getAttribute('value')) {
-      target = event.target;
-    } else {
-      target = event.target.parentNode;
-    }
-  
-    target.style.backgroundColor = '#85c6f5';
+  for (let btn of seventhQButton) {
+    btn.style.backgroundColor = 'white'; //div2
+  }
+
+  let target;
+  if (event.target.getAttribute('value')) {
+    target = event.target;
+  } else {
+    target = event.target.parentNode;
+  }
+
+  target.style.backgroundColor = '#85c6f5';
 }
 
 function addValue8(event) {
-  eighthsum = event.target.getAttribute('value')||
+  eighthsum = event.target.getAttribute('value') ||
     event.target.parentNode.getAttribute('value');
 
-    let eighthQButton = document.getElementsByClassName('eighthQButton'); // [div1, div2]
+  let eighthQButton = document.getElementsByClassName('eighthQButton'); // [div1, div2]
 
-    for (let btn of eighthQButton) {
-      btn.style.backgroundColor = 'white'; //div2
-    }
-  
-    let target;
-    if (event.target.getAttribute('value')) {
-      target = event.target;
-    } else {
-      target = event.target.parentNode;
-    }
-  
-    target.style.backgroundColor = '#85c6f5';
+  for (let btn of eighthQButton) {
+    btn.style.backgroundColor = 'white'; //div2
+  }
+
+  let target;
+  if (event.target.getAttribute('value')) {
+    target = event.target;
+  } else {
+    target = event.target.parentNode;
+  }
+
+  target.style.backgroundColor = '#85c6f5';
 }
 // 計算sum
 function addValue(event) {
@@ -305,12 +305,13 @@ function addValue(event) {
   sum = sum + parseInt(event.target.getAttribute('value'))
 }
 
-answerBotton.addEventListener('click',showanimal );
+answerBotton.addEventListener('click', showanimal);
 
 // 呈現方式
 function showanimal(id) {
   var fish = document.getElementById('fish');
-  var ntucustomer = document.getElementById('ntucustomer');
+  // var ntucustomer = document.getElementById('ntucustomer');
+  var cow = document.getElementById('cow');
   var goodboy = document.getElementById('goodboy');
   var goose = document.getElementById('goose');
   var stupidbird = document.getElementById('stupidbird');
@@ -327,30 +328,30 @@ function showanimal(id) {
   // seventhsum = event.target.getAttribute('value');
   // eighthsum = event.target.getAttribute('value');
 
-  sum = parseInt(firstsum) + 
-    parseInt(secondsum) + 
-    parseInt(thirdsum) + 
-    parseInt(fourthsum) + 
-    parseInt(fifthsum) + 
-    parseInt(sixthsum) + 
-    parseInt(seventhsum) + 
+  sum = parseInt(firstsum) +
+    parseInt(secondsum) +
+    parseInt(thirdsum) +
+    parseInt(fourthsum) +
+    parseInt(fifthsum) +
+    parseInt(sixthsum) +
+    parseInt(seventhsum) +
     parseInt(eighthsum);
-  
+
   console.log(sum);
 
-  if (sum <= 13) {
+  if (sum <= 16) {
     fish.style.display = 'block';
-  } else if (sum >= 13 && sum <= 16) {
-    ntucustomer.style.display = 'block';
-  } else if (sum >= 17 && sum <= 20) {
+  } else if (sum >= 17 && sum <= 22) {
+    cow.style.display = 'block';
+  } else if (sum >= 23 && sum <= 25) {
     goodboy.style.display = 'block';
-  } else if (sum >= 21 && sum <= 24) {
+  } else if (sum >= 26 && sum <= 27) {
     goose.style.display = 'block';
-  } else if (sum >= 25 && sum <= 28) {
+  } else if (sum >= 28 && sum <= 30) {
     stupidbird.style.display = 'block';
-  } else if (sum >= 29 && sum <= 32) {
+  } else if (sum >= 31 && sum <= 33) {
     squirrel.style.display = 'block';
-  } else if (sum >= 33 && sum <= 36) {
+  } else if (sum >= 34 && sum <= 36) {
     sparrow.style.display = 'block';
   } else {
     monkey.style.display = 'block'
@@ -371,14 +372,14 @@ reStart.addEventListener('click', function (re) {
   sum = 0;
 
   fish.style.display = 'none';
-  ntucustomer.style.display = 'none';
+  cow.style.display = 'none';
   goodboy.style.display = 'none';
   goose.style.display = 'none';
   stupidbird.style.display = 'none';
   squirrel.style.display = 'none';
   sparrow.style.display = 'none';
   monkey.style.display = 'none';
- 
+
 });
 
 
