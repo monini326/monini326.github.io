@@ -341,17 +341,17 @@ function showanimal(id) {
 
   if (sum <= 16) {
     fish.style.display = 'block';
-  } else if (sum >= 17 && sum <= 22) {
+  } else if (sum >= 17 && sum <= 20) {
     cow.style.display = 'block';
-  } else if (sum >= 23 && sum <= 25) {
+  } else if (sum >= 21 && sum <= 22) {
     goodboy.style.display = 'block';
-  } else if (sum >= 26 && sum <= 27) {
+  } else if (sum >= 23 && sum <= 24) {
     goose.style.display = 'block';
-  } else if (sum >= 28 && sum <= 30) {
+  } else if (sum >= 25 && sum <= 26) {
     stupidbird.style.display = 'block';
-  } else if (sum >= 31 && sum <= 33) {
+  } else if (sum >= 27 && sum <= 30) {
     squirrel.style.display = 'block';
-  } else if (sum >= 34 && sum <= 36) {
+  } else if (sum >= 31 && sum <= 36) {
     sparrow.style.display = 'block';
   } else {
     monkey.style.display = 'block'
